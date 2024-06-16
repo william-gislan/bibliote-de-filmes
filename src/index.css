@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+h1{
+    color: yellow;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+.listFilms{
+    width: 15%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.btnDetails{
+    background-color: yellow;
+    font-size:  13px;
+    padding: 10px;
+    width:90%;
+    border: 0;
+    border-radius: 5px;
+
+}
